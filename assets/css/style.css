@@ -1,0 +1,52 @@
+/* Custom Neon & Glassmorphism Styles */
+:root {
+    --neon-yellow: #facc15;
+    --neon-red: #ef4444;
+}
+
+body {
+    background: radial-gradient(circle at center, #0a0a0a 0%, #000000 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Glassmorphism Card */
+.glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+}
+
+/* Dynamic Neon Borders */
+.border-neon-yellow {
+    border-top: 2px solid var(--neon-yellow);
+    box-shadow: 0 -10px 20px -10px rgba(250, 204, 21, 0.5);
+}
+
+.border-neon-red {
+    border-top: 2px solid var(--neon-red);
+    box-shadow: 0 -10px 20px -10px rgba(239, 68, 68, 0.5);
+}
+
+/* Breathing Animation for "Coming Soon" */
+@keyframes breathe {
+    0%, 100% { opacity: 1; filter: drop-shadow(0 0 5px var(--neon-red)); }
+    50% { opacity: 0.5; filter: drop-shadow(0 0 15px var(--neon-red)); }
+}
+
+.animate-pulse-red {
+    animation: breathe 3s ease-in-out infinite;
+}
+
+/* Smooth Tab Transitions */
+[x-cloak] { display: none !important; }
+
+.tab-content-enter {
+    opacity: 0;
+    transform: translateY(10px);
+}
+.tab-content-enter-active {
+    transition: all 0.4s ease-out;
+}
