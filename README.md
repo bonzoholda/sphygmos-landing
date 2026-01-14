@@ -3,7 +3,7 @@
 The official landing page for the **Sphygmos Ecosystem**, featuring the foundation token **$SMOS** and the upcoming evolutionary token **$KDIA**.
 
 ## 🌐 Live Preview
-- **Main Ecosystem:** [Coming Soon]
+- **Main Ecosystem:** [https://bonzoholda.github.io/sphygmos-protocol/](https://bonzoholda.github.io/sphygmos-protocol/)
 - **SMOS Mining (dApp):** [https://smostoken.netlify.app](https://smostoken.netlify.app)
 
 ## 🧬 Ecosystem Architecture
