@@ -44,6 +44,18 @@
             <p class="text-xs text-gray-500 mt-2 uppercase tracking-widest">Protocol Ecosystem</p>
         </div>
 
+        <div class="mb-6 flex items-center justify-center gap-3 px-4 py-2 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md">
+            <svg class="w-4 h-4 fill-gray-400" viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+            </svg>
+            <p class="text-[11px] md:text-xs text-gray-400 font-medium tracking-wide">
+                Recommended wallets: 
+                <span class="text-gray-200">MetaMask</span> 
+                <span class="mx-1 text-gray-500">•</span> 
+                <span class="text-gray-200">TokenPocket</span>
+            </p>
+        </div>
+        
         <div class="flex p-1 mb-6 glass rounded-2xl">
             <button @click="tab = 'smos'" :class="tab === 'smos' ? 'bg-yellow-500/20 text-yellow-400 border border-yellow-500/50' : 'text-gray-500'" class="flex-1 py-3 text-sm font-bold rounded-xl transition-all duration-300">
                 SPHYGMOS
